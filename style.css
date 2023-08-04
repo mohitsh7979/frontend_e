@@ -1,0 +1,98 @@
+.container{
+
+    height: 100vh;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+
+    height: 70%;
+    width: 30%;
+    border: 2px solid black;
+}
+
+#inner-box-1{
+
+    height: 70%;
+    border: 2px dashed red;
+}
+
+#inner-box-2{
+
+    height: 10%;
+    border: 2px dashed green;
+}
+
+#inner-box-3{
+
+    height: 18%;
+    border: 2px dashed red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.sub-box{
+
+    height: 99%;
+    width: 70%;
+    border: 2px solid black;
+    margin: auto;
+}
+
+.logo{
+
+    height: 20%;
+    border: 2px solid yellow;
+    display: flex;
+    justify-content: center;
+}
+
+.input{
+
+    height: 50%;
+    border: 2px solid green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+}
+
+.links{
+
+    height: 28%;
+    border: 2px solid red;
+}
+
+input{
+
+    padding: 15px;
+}
+button{
+
+    padding: 15px;
+}
+
+.or{
+
+    display: flex;
+    margin-top: 15px;
+}
+
+span{
+
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.or h1{
+
+    border-bottom: 2px solid black;
+    width: 50%;
+    position: relative;
+    bottom: 14px;
+}
