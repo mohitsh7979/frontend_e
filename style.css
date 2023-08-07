@@ -96,3 +96,17 @@ span{
     position: relative;
     bottom: 14px;
 }
+
+
+@media (max-width:766px){
+
+      #box-1{
+
+        display: none;
+      }
+
+      #box-2{
+
+        width: 80%;
+      }
+}
